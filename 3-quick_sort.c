@@ -6,7 +6,7 @@
  * @low: Lowest index to sort.
  * @high: Highest index to sort.
  * @size: Size of array.
- * 
+ *
  * Return: Array.
  */
 int *quick_sort_recursive(int *array, int low, int high, int size)
@@ -47,10 +47,10 @@ int *quick_sort_recursive(int *array, int low, int high, int size)
 
 /**
  * quick_sort - A function that sorts a doubly linked list 
- * of integers in ascending order using the Insertion sort algorithm
+ *of integers in ascending order using the Insertion sort algorithm
  * @array: int array to sort
  * @size: size of array
- * 
+ *
  * Return: void
  */
 void quick_sort(int *array, size_t size)
